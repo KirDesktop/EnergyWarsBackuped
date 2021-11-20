@@ -10,6 +10,17 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] private GameObject _shopWarning;
     [SerializeField] private GameObject _shop;
     [SerializeField] private GameObject _grabWarning;
+    [SerializeField] private Slider _healthBar;
+
+    public void setMaxHealthBar(int max)
+    {
+        _healthBar.maxValue = max;
+    }
+
+    public void setHealthBarValue(int value)
+    {
+        _healthBar.value = value;
+    }
 
     public void setEnergySize(int number, int size)
     {

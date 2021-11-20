@@ -48,3 +48,9 @@ TagManager:
   - name: New Layer
     uniqueID: 3012157641
     locked: 0
+  - name: healtbar
+    uniqueID: 4216544611
+    locked: 0
+  - name: other
+    uniqueID: 1969155103
+    locked: 0

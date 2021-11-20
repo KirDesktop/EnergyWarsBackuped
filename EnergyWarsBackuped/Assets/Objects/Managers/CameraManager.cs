@@ -9,6 +9,7 @@ public class CameraManager : MonoBehaviour
     [SerializeField] private PlayerInventory _playerInventory;
     [SerializeField] private GameObject _cameraSimple;
     [SerializeField] private GameObject _cameraShooting;
+    [SerializeField] private GameObject _cameraShop;
     [SerializeField] private PlayerEvents _playerEvents;
     [SerializeField] private GameObject _followTarget;
     [SerializeField] private GameObject _followTarget2;
@@ -24,6 +25,8 @@ public class CameraManager : MonoBehaviour
 
     [HideInInspector] public bool isShootingView = false;
 
+    private bool _isLocked = false;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z) && !_playerEvents.isBuild && _playerMovement.canMove)
@@ -32,8 +35,17 @@ public class CameraManager : MonoBehaviour
 
             changeView(isShootingView);
         }
-        _look.x = Input.GetAxis("Mouse X");
-        _look.y = -Input.GetAxis("Mouse Y");
+        if (!_isLocked)
+        {
+            _look.x = Input.GetAxis("Mouse X");
+            _look.y = -Input.GetAxis("Mouse Y");
+        }
+        else
+        {
+            _look.x = 0;
+            _look.y = 0;
+        }
+        
 
         _followTarget.transform.rotation *= Quaternion.AngleAxis(_look.x * _rotationPower, Vector3.up);
 
@@ -74,11 +86,15 @@ public class CameraManager : MonoBehaviour
         if (isShootingView)
         {
             _cameraShooting.SetActive(!isActive);
+            _cameraShop.SetActive(isActive);
         }
         else
         {
             _cameraSimple.SetActive(!isActive);
+            _cameraShop.SetActive(isActive);
         }
+
+        _isLocked = isActive;
     }
 
     public void changeView(bool isShoot)

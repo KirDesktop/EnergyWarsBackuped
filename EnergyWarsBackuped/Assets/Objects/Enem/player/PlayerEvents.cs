@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerEvents : MonoBehaviour
+public class PlayerEvents : HealthScript
 {
+    [SerializeField] private float _maxHealth;
+
     [Header("References")]
     [SerializeField] private PlayerInventory _playerInventory;
     [SerializeField] private CanvasManager _canvasManager;
@@ -25,8 +27,15 @@ public class PlayerEvents : MonoBehaviour
     private bool _canGrab = false;
     [HideInInspector] public bool isBuild = false;
 
+    private void Awake()
+    {
+        _canvasManager.setMaxHealthBar(health);
+    }
+
     private void Update()
     {
+        _canvasManager.setHealthBarValue(health);
+
         if (_canGrab && Input.GetKeyDown(KeyCode.E))
         {
             _playerInventory.addItem(_lastItem.GetComponent<ThrowObjectsController>().itemId);
