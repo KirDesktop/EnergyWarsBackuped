@@ -6411,7 +6411,7 @@ MonoBehaviour:
   - 0.5
   _ground:
     serializedVersion: 2
-    m_Bits: 3272
+    m_Bits: 36040
   _bullet: {fileID: 3655143294265971394, guid: 874ff09cfa4d30f4abbd00b697a3ac6c, type: 3}
   _cross: {fileID: 1684208260}
   _cameraManager: {fileID: 963194231}

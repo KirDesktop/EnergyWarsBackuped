@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 23534
+  controlID: 143
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 23539
+  controlID: 91
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 23540
+  controlID: 66
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,15 +272,15 @@ MonoBehaviour:
     y: 0
     width: 380
     height: 759
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,23 +398,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba490000
-      m_LastClickedID: 18874
-      m_ExpandedIDs: 3eadfdffd8d5fdffe2d5fdffb6fffdffc0fffdffb861feff76e8fefff8f6ffff4efbffff50fbffffea490000464a0000d84a0000224b0000564b0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: center
-        m_OriginalName: center
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -141464
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.6378098, y: -0.5776671, z: 7.0785756}
+    m_Target: {x: -5.6014013, y: 1.7921748, z: 1.1425401}
     speed: 2
-    m_Value: {x: 1.6378098, y: -0.5776671, z: 7.0785756}
+    m_Value: {x: -5.6014013, y: 1.7921748, z: 1.1425401}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,9 +509,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.22188954, y: 0.02223957, z: -0.0050615245, w: 0.9748084}
+    m_Target: {x: 0.2516276, y: -0.421185, z: 0.12285363, w: 0.86267215}
     speed: 2
-    m_Value: {x: 0.22188883, y: 0.022239499, z: -0.005061508, w: 0.97480524}
+    m_Value: {x: 0.2516264, y: -0.421183, z: 0.12285304, w: 0.86266804}
   m_Size:
     m_Target: 10
     speed: 2
@@ -578,22 +578,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Objects/Managers
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Objects/Managers
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Projects\GitHub\EnergyWarsBackuped\EnergyWarsBackuped
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 138}
-    m_SelectedIDs: 265c0000
-    m_LastClickedID: 23590
-    m_ExpandedIDs: 00000000e4500000105100009c5b0000b65b0000fe5b000000ca9a3b
+    scrollPos: {x: 0, y: 46}
+    m_SelectedIDs: 44510000
+    m_LastClickedID: 20804
+    m_ExpandedIDs: 0000000044510000725100007c51000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -621,7 +621,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e450000000ca9a3b
+    m_ExpandedIDs: 0000000044510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -784,9 +784,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1209
+    x: 1220
     y: 73
-    width: 390
+    width: 379
     height: 738
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20

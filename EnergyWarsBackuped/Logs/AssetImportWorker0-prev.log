@@ -15,11 +15,11 @@ C:/Projects/GitHub/EnergyWarsBackuped/EnergyWarsBackuped
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53205
+64465
 Successfully changed project path to: C:/Projects/GitHub/EnergyWarsBackuped/EnergyWarsBackuped
 C:/Projects/GitHub/EnergyWarsBackuped/EnergyWarsBackuped
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021282 seconds.
+Registered in 0.006826 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.766 seconds
+- Completed reload, in  2.659 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2767ms)
-		BeginReloadAssembly (187ms)
+	ReloadAssembly (2660ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (527ms)
-			LoadAssemblies (186ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (221ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012426 seconds.
+Registered in 0.014121 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.675 seconds
+- Completed reload, in  1.529 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1677ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (1530ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1415ms)
-			LoadAssemblies (205ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1314ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (450ms)
+			SetupTypeCache (488ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (503ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (442ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.9 MB.
-System memory in use after: 143.1 MB.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.4 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3321.
-Total: 4.119200 ms (FindLiveObjects: 0.652700 ms CreateObjectMapping: 0.233300 ms MarkObjects: 3.084900 ms  DeleteObjects: 0.147000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3322.
+Total: 9.842100 ms (FindLiveObjects: 0.547800 ms CreateObjectMapping: 0.187100 ms MarkObjects: 8.316600 ms  DeleteObjects: 0.787900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,48 +131,345 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Objects/Enem
-  artifactKey: Guid(da7b5ae56e21f0240af69a1e6d19ab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Enem using Guid(da7b5ae56e21f0240af69a1e6d19ab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74411744e39ff7297879298f7555009c') in 0.020471 seconds 
-  Import took 0.025453 seconds .
+  path: Assets/Objects/Enem/WalkingEnemy/enemySworder.fbx
+  artifactKey: Guid(999a79b2e458cee47a0c98f462de4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/enemySworder.fbx using Guid(999a79b2e458cee47a0c98f462de4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a8bd35739cf6cf8623f2f750afd247') in 0.436620 seconds 
+  Import took 0.447308 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Objects
-  artifactKey: Guid(5370161badbedc94b8c10f7720488220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects using Guid(5370161badbedc94b8c10f7720488220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b849d53e8b2746bf18650a1906f86e9d') in 0.017733 seconds 
-  Import took 0.024440 seconds .
+  Time since last request: 0.001146 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy
+  artifactKey: Guid(dcd49222056a4da4f94c69f10e9b0688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy using Guid(dcd49222056a4da4f94c69f10e9b0688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0513b8e8ccc43f8de0bed82abb79e1d1') in 0.008382 seconds 
+  Import took 0.012671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Render
-  artifactKey: Guid(ed1386ee868611f4082397b20acdbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Render using Guid(ed1386ee868611f4082397b20acdbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f314622b94038ef87f967cf8e9a763d') in 0.035129 seconds 
-  Import took 0.046658 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002528 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.006471 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.023525 seconds 
-  Import took 0.034680 seconds .
+  Time since last request: 0.050758 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001305 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.010712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Objects/Enem/ShootingEnemy/enemyShooter.fbx
-  artifactKey: Guid(3ade34d0624102648b8b5a472e91387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Enem/ShootingEnemy/enemyShooter.fbx using Guid(3ade34d0624102648b8b5a472e91387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1869e0439938e9ebdc6b0a22545ec18') in 0.374679 seconds 
-  Import took 0.381042 seconds .
+  Time since last request: 0.052645 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000685 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.011159 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Objects/Enem/ShootingEnemy
-  artifactKey: Guid(228eeff5e55aeed4885c4f238d4a57d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Enem/ShootingEnemy using Guid(228eeff5e55aeed4885c4f238d4a57d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfb11f349f5c863343abaee0a7efd44') in 0.015211 seconds 
-  Import took 0.022924 seconds .
+  Time since last request: 0.137560 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000617 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.020008 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198788 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000805 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.011196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110330 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000653 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.011978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037907 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000629 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.007582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036357 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004193 seconds  code(4) message(Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z')
+  ERROR: Build asset version error: assets/objects/enem/walkingenemy/enemywalkingcontroller.cs in SourceAssetDB has modification time of '2021-11-20T09:23:17.9860467Z' while content on disk has modification time of '2021-11-20T16:49:20.7146555Z'
+  Import took 0.016437 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2756 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3372.
+Total: 9.239400 ms (FindLiveObjects: 0.552400 ms CreateObjectMapping: 0.223400 ms MarkObjects: 8.428500 ms  DeleteObjects: 0.033100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.539639 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45349af2f8ecb7dc7527c47b7c5673e4') in 0.017240 seconds 
+  Import took 0.024891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228471 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45349af2f8ecb7dc7527c47b7c5673e4') in 0.003060 seconds 
+  Import took 0.008904 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1261ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (452ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2756 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3374.
+Total: 5.116600 ms (FindLiveObjects: 0.561500 ms CreateObjectMapping: 0.284300 ms MarkObjects: 4.228800 ms  DeleteObjects: 0.040900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1887ms)
+		BeginReloadAssembly (442ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (302ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (577ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2756 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 58.613500 ms (FindLiveObjects: 0.847300 ms CreateObjectMapping: 0.694300 ms MarkObjects: 55.638700 ms  DeleteObjects: 1.417100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 145.782049 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99e68d1f3ab0bd844310861b39d84da') in 0.225246 seconds 
+  Import took 0.268595 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2234ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1933ms)
+			LoadAssemblies (493ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (15ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2756 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3378.
+Total: 4.200800 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.148300 ms MarkObjects: 3.670000 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.626261 seconds.
+  path: Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs
+  artifactKey: Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Enem/WalkingEnemy/EnemyWalkingController.cs using Guid(67daa943c30ca224a94eb9d149df6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444d4c8daf56568e64de2b0159388533') in 0.013294 seconds 
+  Import took 0.022418 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
